@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.intro1 {
+  width: 100%;
+  height: 100vh;
+}
+.container1 {
+  width: 100%;
+  margin-top: 180px;
+}
+.container1 input {
+  display: block;
+  width: 30%;
+  margin-top: 20px;
+  transform: translate(300px);
+  height: 6vh;
+}
+.container1 label {
+  transform: translate(300px);
+  font-size: 30px;
+  font-family: sans-serif;
+}
+.btn {
+  background: rgb(6, 82, 28);
+  transition: 1s;
+  color: white;
+  border: none;
+  font-family: sans-serif;
+  cursor: pointer;
+  transition: 0.8s;
+}
+.btn:hover {
+  background: black;
+  border: 3px solid gray;
+}

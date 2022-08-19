@@ -1,14 +1,12 @@
 import React from 'react';
-import Path from './Path';
 
-function App() {
+function Language() {
     return (
         <div>
-
-            <Path/>
+            <h1>this is language</h1>
             
         </div>
     );
 }
 
-export default App;
+export default Language;

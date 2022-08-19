@@ -1,14 +1,12 @@
 import React from 'react';
-import Path from './Path';
 
-function App() {
+function ShipTo() {
     return (
         <div>
-
-            <Path/>
+            <h1>this is shipto</h1>
             
         </div>
     );
 }
 
-export default App;
+export default ShipTo;

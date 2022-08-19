@@ -1,14 +1,12 @@
 import React from 'react';
-import Path from './Path';
 
-function App() {
+function Sell() {
     return (
         <div>
-
-            <Path/>
+            <h1>this is sell</h1>
             
         </div>
     );
 }
 
-export default App;
+export default Sell;
