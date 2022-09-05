@@ -39,7 +39,7 @@ function Button4() {
 
             <div className={Button.container5}>
                 <img src={garbez}/>
-                <p>Garbage and Recycling Bins</p>
+                <p>Garbage</p>
             </div>
 
             <div className={Button.container5}>

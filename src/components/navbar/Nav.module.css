@@ -21,18 +21,19 @@
   margin-left: 50px;
 }
 .input {
-  width: 45%;
-  margin-left: 20px;
-  height: auto;
+  height: 7vh;
+  width: 500px;
+  margin-top: -3px;
 }
-
-.form input {
-  height: 30px;
-  padding: 0 70px;
-  border-radius: 7px;
-  border: 2px solid rgb(54, 78, 125);
+.input input {
+  width: 80%;
+  height: auto;
+  overflow: hidden;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 8px 70px;
   font-size: 12px;
-  background: rgb(215, 215, 215);
 }
 .navigation {
   width: 32%;
@@ -65,13 +66,25 @@
 @media (min-width: 1px) and (max-width: 290px) {
   .nav {
     display: block;
+    width: 100%;
+    height: auto;
   }
-  .input input {
-    width: 60%;
-    margin-top: 15px;
-  }
+
   .navigation {
     width: 50%;
+  }
+  .input {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    display: block;
+    margin-left: 50px;
+  }
+  .input input {
+    margin-top: 10px;
+    height: 30px;
+    width: 50%;
+    font-size: 8px;
   }
   .navigation ul {
     margin-top: 20px;
@@ -80,16 +93,31 @@
   }
   .navigation ul li {
     margin-bottom: 10px;
+  }
+  .nav img {
+    display: none;
   }
 }
 @media (min-width: 291px) and (max-width: 450px) {
   .nav {
     display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .input {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    display: block;
+    margin-left: 50px;
   }
   .input input {
-    width: 80%;
-    margin-top: 15px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 8px;
   }
+
   .navigation {
     width: 50%;
   }
@@ -100,37 +128,59 @@
   }
   .navigation ul li {
     margin-bottom: 10px;
+  }
+  .nav img {
+    display: none;
   }
 }
 
 @media screen and (min-width: 450px) and (max-width: 768px) {
   .nav {
     display: block;
+    width: 100%;
+    height: auto;
   }
-  .input input {
-    width: 90%;
-    margin-top: 15px;
-  }
+
   .navigation {
     display: flex;
     width: 90%;
+    margin-top: 20px;
   }
   .navigation ul {
     margin-top: 20px;
     margin-bottom: 20px;
   }
+  .input {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    display: block;
+    margin-left: 50px;
+  }
+  .input input {
+    margin-top: 10px;
+  }
 }
 @media screen and (min-width: 769px) and (max-width: 1100px) {
   .nav {
     display: block;
-  }
-  .input input {
     width: 100%;
-    margin-top: 15px;
+    height: auto;
   }
+
   .navigation {
     display: flex;
     width: 90%;
+  }
+  .input {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    display: block;
+    margin-left: 50px;
+  }
+  .input input {
+    margin-top: 10px;
   }
   .navigation ul {
     margin-top: 20px;

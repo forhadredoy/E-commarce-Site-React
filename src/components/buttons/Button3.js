@@ -1,7 +1,6 @@
 import React from 'react';
-import shopping from '../img/shopping.jpg';
+import sho from '../img/sho.jpg';
 import Button from './Button.module.css';
-
 function Button3() {
     return (
         <div className={Button.button3}>
@@ -17,7 +16,7 @@ function Button3() {
             
             <div className={Button.container4}>
 
-                <img src={shopping}/>
+                <img src={sho}/>
 
 
             </div>

@@ -44,8 +44,8 @@ function Sign1() {
     <form onSubmit={handleSubmit}>
         <input value={gmail} name="" type='gmail' className={Sign.input1} placeholder='Enter your Email' onChange={(e)=>setGmail(e.target.value)}/>
         
-        <input value={pass} name="" type='text' className={Sign.input1} placeholder='Enter New Password' onChange ={(e)=>setPass(e.target.value)}/>
-        <input type='submit' value="Log In" className={Sign.input2} onClick ={handleClick} />
+        <input value={pass} name="" type='password' className={Sign.input1} placeholder='Enter New Password' onChange ={(e)=>setPass(e.target.value)}/>
+        <input type='submit' value="Log In" disabled={!gmail || !pass } className={Sign.input2} onClick ={handleClick} />
        
     </form>
 

@@ -5,6 +5,7 @@
 .intro {
   width: 100%;
   height: auto;
+  background: rgb(0, 22, 7);
 }
 .container {
   display: block;
@@ -18,29 +19,53 @@
 .container input {
   display: block;
   margin-bottom: 20px;
-  padding: 6px 40px;
+  width: 100%;
+  padding: 6px 10px;
   cursor: pointer;
   border-radius: 6px;
-  border: 1px solid gray;
+  border: 1px solid rgb(6, 6, 6);
 }
 .container select {
   display: block;
-  padding: 6px 40px;
+  width: 80%;
+  padding: 6px 10px;
   margin-bottom: 20px;
   cursor: pointer;
+  border-radius: 6px;
 }
 .container label {
-  color: rgb(17, 107, 17);
+  color: rgb(227, 244, 227);
   font-size: 17px;
   font-family: sans-serif;
   text-align: center;
 }
 .btn {
-  background: rgb(3, 46, 3);
+  background: rgb(0, 58, 30);
   color: white;
   cursor: pointer;
   transition: 0.8s;
 }
 .btn:hover {
   background: black;
+}
+@media (min-width: 1px) and (max-width: 400px) {
+  .intro {
+    width: 100%;
+    height: auto;
+  }
+  .container {
+    width: 90%;
+  }
+  .container input {
+    margin-left: 20px;
+    width: 90%;
+  }
+  .container label {
+    margin-left: 20px;
+    font-size: 13px;
+  }
+  .container select {
+    margin-left: 20px;
+    width: 90%;
+  }
 }

@@ -5,22 +5,28 @@
 .intro1 {
   width: 100%;
   height: 100vh;
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  transition: 0.8s;
 }
 .container1 {
   width: 100%;
-  margin-top: 180px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
 }
 .container1 input {
-  display: block;
-  width: 30%;
-  margin-top: 20px;
-  transform: translate(300px);
-  height: 6vh;
+  height: 6.5vh;
+  width: 100%;
+  margin-top: 30px;
 }
 .container1 label {
-  transform: translate(300px);
-  font-size: 30px;
+  display: block;
+  font-size: 25px;
   font-family: sans-serif;
+  color: white;
+  text-align: center;
 }
 .btn {
   background: rgb(6, 82, 28);
@@ -34,4 +40,21 @@
 .btn:hover {
   background: black;
   border: 3px solid gray;
+}
+.intro1:hover {
+  background: rgb(0, 24, 0);
+}
+@media (min-width: 1px) and (max-width: 400px) {
+  .container1 {
+    width: 90%;
+  }
+  .container1 input {
+    height: 6.5vh;
+    width: 100%;
+    margin-left: 20px;
+  }
+  .container1 label {
+    font-size: 20px;
+    text-align: center;
+  }
 }

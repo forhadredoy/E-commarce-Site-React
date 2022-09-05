@@ -1,18 +1,22 @@
 * {
   padding: 0;
   margin: 0;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 .button1 {
   width: 100%;
   position: relative;
   background: rgb(69, 116, 55);
-  margin-bottom: 30px;
+  overflow-x: hidden;
 }
 .container {
   display: flex;
   width: 100%;
   padding: 16px 20px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 .container li {
   list-style-type: none;
@@ -40,7 +44,7 @@
 }
 @media (min-width: 1px) and (max-width: 450px) {
   .button1 {
-    width: 105%;
+    width: 100%;
   }
   .container {
     width: 100%;
@@ -52,6 +56,7 @@
     align-items: center;
     margin-top: 20px;
   }
+
   .fontawesome1 {
     display: none;
   }
@@ -61,7 +66,7 @@
 }
 @media screen and (min-width: 451px) and (max-width: 768px) {
   .button1 {
-    width: 105%;
+    width: 100%;
   }
   .container {
     width: 100%;
@@ -82,7 +87,7 @@
 }
 @media screen and (min-width: 769px) and (max-width: 1200px) {
   .button1 {
-    width: 105%;
+    width: 100%;
   }
   .container {
     width: 100%;
@@ -122,6 +127,7 @@
   display: flex;
   margin-left: 30px;
   margin-top: 60px;
+  overflow-x: hidden;
 }
 .container2 {
   width: 30%;
@@ -131,8 +137,9 @@
 }
 .container2 ul {
   background: rgb(255, 255, 255);
-
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: rgba(255, 255, 255, 0.25) 0px 50px 100px -20px,
+    rgb(255, 255, 255) 0px 30px 60px -30px,
+    rgba(18, 18, 18, 0.35) 0px -2px 6px 0px inset;
 }
 .container2 li {
   margin-bottom: 22px;
@@ -169,14 +176,14 @@
   margin-top: 35px;
   font-family: sans-serif;
   font-weight: 500;
-  font-size: 30px;
+  font-size: 20px;
   padding: 3px 3px;
   cursor: pointer;
   transition: 0.8s;
 }
 .container2 h3:hover {
   background: rgb(197, 197, 196);
-  transform: scale(1.1);
+  transform: scale(1.01);
 }
 @media (min-width: 1px) and (max-width: 450px) {
   .button2 {
@@ -216,14 +223,15 @@
   }
 }
 .button3 {
-  width: 90%;
+  width: 97%;
   display: flex;
   background: rgb(69, 116, 55);
-  height: 55vh;
+  height: auto;
   margin-top: 20px;
   margin-bottom: 60px;
-  margin-left: 50px;
+  margin-left: 20px;
   border-radius: 15px;
+  overflow-y: hidden;
 }
 
 .container3 {
@@ -258,26 +266,33 @@
   background: black;
 }
 .container4 {
-  width: 42%;
-  height: 30vh;
+  width: 50%;
+  height: 60vh;
   padding-bottom: 20px;
+  overflow-y: hidden;
 }
 .container4 img {
-  width: 90%;
   height: 40vh;
-  margin-top: 40px;
-  border-radius: 30px;
-  cursor: pointer;
+  width: 65%;
+  padding: 20px;
+  transform: translateY(40px);
+  object-fit: cover;
 }
 @media (min-width: 1px) and (max-width: 450px) {
   .button3 {
-    width: 85%;
+    width: 90%;
     display: block;
     height: 100vh;
     margin-right: 20px;
   }
   .container3 {
     text-align: center;
+  }
+  .container3 h1 {
+    font-size: 17px;
+  }
+  .container3 h3 {
+    font-size: 15px;
   }
   .container3 button {
     width: 100%;
@@ -289,12 +304,18 @@
 }
 @media (min-width: 451px) and (max-width: 768px) {
   .button3 {
-    width: 85%;
+    width: 95%;
     display: block;
     height: 100vh;
   }
   .container3 {
     text-align: center;
+  }
+  .container3 h1 {
+    font-size: 17px;
+  }
+  .container3 h3 {
+    font-size: 15px;
   }
   .container3 button {
     width: 100%;
@@ -306,25 +327,27 @@
 }
 @media (min-width: 769px) and (max-width: 1024px) {
   .button3 {
-    width: 85%;
+    width: 95%;
     display: block;
     height: 100vh;
   }
   .container3 {
     width: 90%;
     text-align: center;
+    font-size: 10px;
   }
-  .container3 button {
-    width: 100%;
+  .container3 .container3 button {
+    width: 70%;
   }
   .container4 {
     width: 90%;
     margin-left: 20px;
   }
 }
-@media (min-width: 1025px) and (max-width: 3000px) {
+
+@media (min-width: 1201px) and (max-width: 3000px) {
   .button3 {
-    width: 90%;
+    width: 97%;
   }
 }
 
@@ -334,9 +357,11 @@
 .button4 {
   width: 100%;
   display: flex;
-  height: 50vh;
+  height: auto;
   margin-top: 20px;
   margin-left: 30px;
+  overflow: hidden;
+  margin-bottom: 30px;
 }
 
 .main3 h3 {
@@ -353,6 +378,7 @@
   align-items: center;
   padding: 30px;
   transition: 0.8s;
+  overflow: hidden;
 }
 .container5 p {
   color: black;
@@ -379,17 +405,19 @@
     width: 100%;
     display: block;
     height: auto;
+    overflow: hidden;
   }
   .container5 {
     width: 80%;
-    height: 80vh;
-    margin-left: 20px;
+    height: 40vh;
+    margin-left: 8px;
     margin-bottom: 40px;
   }
   .container5 img {
-    width: 90%;
-    height: 60vh;
+    width: 64%;
+    height: 80%;
     margin-left: 30px;
+    object-fit: cover;
   }
   .container5 p {
     text-align: center;
@@ -398,22 +426,24 @@
 @media (min-width: 451px) and (max-width: 768px) {
   .main3 {
     height: 700vh;
+    overflow: hidden;
   }
   .button4 {
     width: 100%;
     display: block;
-    height: 300vh;
+    height: auto;
   }
   .container5 {
     width: 90%;
     height: 80vh;
-    margin-left: 20px;
+    margin-left: 10px;
     margin-bottom: 40px;
   }
   .container5 img {
     width: 90%;
     height: 60vh;
     margin-left: 30px;
+    object-fit: cover;
   }
   .container5 p {
     text-align: center;
@@ -439,6 +469,7 @@
     width: 90%;
     height: 60vh;
     margin-left: 30px;
+    object-fit: cover;
   }
   .container5 p {
     text-align: center;
@@ -456,6 +487,7 @@
   height: auto;
   margin-top: 20px;
   margin-left: 30px;
+  overflow-y: hidden;
 }
 
 .container6 {
@@ -466,6 +498,7 @@
   align-items: center;
   padding: 30px;
   transition: 0.8s;
+  overflow: hidden;
 }
 .container6 p {
   color: black;
@@ -491,14 +524,15 @@
   }
   .container6 {
     width: 80%;
-    height: 80vh;
-    margin-left: 20px;
+    height: 40vh;
+    margin-left: 8px;
     margin-bottom: 40px;
   }
   .container6 img {
-    width: 90%;
-    height: 60vh;
+    width: 64%;
+    height: 80%;
     margin-left: 30px;
+    object-fit: cover;
   }
   .container6 p {
     text-align: center;
@@ -512,13 +546,14 @@
   .container6 {
     width: 90%;
     height: 80vh;
-    margin-left: 20px;
+    margin-left: 10px;
     margin-bottom: 40px;
   }
   .container6 img {
     width: 90%;
     height: 60vh;
     margin-left: 30px;
+    object-fit: cover;
   }
   .container6 p {
     text-align: center;
@@ -539,6 +574,7 @@
     width: 90%;
     height: 60vh;
     margin-left: 30px;
+    object-fit: cover;
   }
   .container6 p {
     text-align: center;
@@ -557,6 +593,7 @@
   text-align: center;
   margin-bottom: 30px;
   margin-top: 30px;
+  overflow-y: hidden;
 }
 .button6 button {
   height: 5.5vh;
@@ -620,7 +657,9 @@
   padding: 10px 20px;
   cursor: pointer;
   margin-right: 25px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: rgba(255, 255, 255, 0.25) 0px 50px 100px -20px,
+    rgb(255, 255, 255) 0px 30px 60px -30px,
+    rgba(18, 18, 18, 0.35) 0px -2px 6px 0px inset;
   transition: 1s;
 }
 .container8 img {
@@ -649,7 +688,7 @@
     display: block;
   }
   .container8 {
-    width: 80%;
+    width: 75%;
     margin-bottom: 30px;
   }
   .container8 img {
@@ -662,7 +701,7 @@
     display: block;
   }
   .container8 {
-    width: 90%;
+    width: 85%;
     margin-bottom: 30px;
   }
   .container8 img {
@@ -700,7 +739,9 @@
   padding: 10px 20px;
   cursor: pointer;
   margin-right: 25px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: rgba(255, 255, 255, 0.25) 0px 50px 100px -20px,
+    rgb(255, 255, 255) 0px 30px 60px -30px,
+    rgba(18, 18, 18, 0.35) 0px -2px 6px 0px inset;
   transition: 1s;
 }
 .container9 img {
@@ -729,7 +770,7 @@
     display: block;
   }
   .container9 {
-    width: 80%;
+    width: 75%;
     margin-bottom: 30px;
   }
   .container9 img {
@@ -742,7 +783,7 @@
     display: block;
   }
   .container9 {
-    width: 90%;
+    width: 85%;
     margin-bottom: 30px;
   }
   .container9 img {
@@ -780,7 +821,9 @@
   padding: 10px 20px;
   cursor: pointer;
   margin-right: 25px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: rgba(255, 255, 255, 0.25) 0px 50px 100px -20px,
+    rgb(255, 255, 255) 0px 30px 60px -30px,
+    rgba(18, 18, 18, 0.35) 0px -2px 6px 0px inset;
   transition: 1s;
 }
 .container10 img {
@@ -809,7 +852,7 @@
     display: block;
   }
   .container10 {
-    width: 80%;
+    width: 75%;
     margin-bottom: 30px;
   }
   .container10 img {
@@ -822,7 +865,7 @@
     display: block;
   }
   .container10 {
-    width: 90%;
+    width: 85%;
     margin-bottom: 30px;
   }
   .container10 img {
@@ -861,7 +904,9 @@
   cursor: pointer;
   margin-right: 25px;
   margin-bottom: 30px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: rgba(255, 255, 255, 0.25) 0px 50px 100px -20px,
+    rgb(255, 255, 255) 0px 30px 60px -30px,
+    rgba(18, 18, 18, 0.35) 0px -2px 6px 0px inset;
   transition: 1s;
 }
 .container11 img {
@@ -890,7 +935,7 @@
     display: block;
   }
   .container11 {
-    width: 80%;
+    width: 75%;
     margin-bottom: 30px;
   }
   .container11 img {
@@ -903,7 +948,7 @@
     display: block;
   }
   .container11 {
-    width: 90%;
+    width: 85%;
     margin-bottom: 30px;
   }
   .container11 img {
