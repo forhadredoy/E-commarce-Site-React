@@ -7,7 +7,7 @@
 .button1 {
   width: 100%;
   position: relative;
-  background: rgb(69, 116, 55);
+  background: rgb(1, 23, 0);
   overflow-x: hidden;
 }
 .container {
@@ -28,9 +28,7 @@
   cursor: pointer;
   transition: 1s;
 }
-.optional {
-  margin-left: 80px;
-}
+
 .container li:hover {
   color: rgb(252, 234, 27);
 }
@@ -51,17 +49,12 @@
     display: block;
   }
   .container li {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: block;
     margin-top: 20px;
   }
 
   .fontawesome1 {
     display: none;
-  }
-  .optional {
-    transform: translate(-40px);
   }
 }
 @media screen and (min-width: 451px) and (max-width: 768px) {
@@ -71,18 +64,16 @@
   .container {
     width: 100%;
     display: block;
+    transform: translate(10px);
+    padding: 10px 0;
   }
   .container li {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: block;
     margin-top: 20px;
   }
+
   .fontawesome1 {
     display: none;
-  }
-  .optional {
-    transform: translate(-40px);
   }
 }
 @media screen and (min-width: 769px) and (max-width: 1200px) {
@@ -94,16 +85,11 @@
     display: block;
   }
   .container li {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: block;
     margin-top: 20px;
   }
   .fontawesome1 {
     display: none;
-  }
-  .optional {
-    transform: translate(-40px);
   }
 }
 @media screen and (min-width: 1201px) and (max-width: 1500px) {
@@ -191,7 +177,7 @@
     display: block;
   }
   .container2 {
-    width: 90%;
+    width: 85%;
     margin-bottom: 30px;
   }
 }
@@ -225,7 +211,7 @@
 .button3 {
   width: 97%;
   display: flex;
-  background: rgb(69, 116, 55);
+  background: rgb(1, 23, 0);
   height: auto;
   margin-top: 20px;
   margin-bottom: 60px;
@@ -236,28 +222,28 @@
 
 .container3 {
   width: 42%;
-  margin-left: 60px;
+  margin-left: 30px;
   padding: 70px 0 70px 0;
 }
 .container3 h1 {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   color: rgb(196, 196, 196);
   font-family: sans-serif;
-  font-size: 49px;
+  font-size: 100%;
 }
 .container3 h3 {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   color: rgb(196, 196, 196);
   font-family: sans-serif;
 }
 .container3 button {
-  width: 20%;
-  height: 40px;
-  background: rgb(21, 70, 70);
+  width: 60%;
+  height: 6vh;
+  background: rgb(32, 46, 38);
   border-radius: 7px;
   color: white;
   cursor: pointer;
-  border: 1px solid rgb(30, 29, 59);
+  border: 1px solid rgb(48, 108, 89);
   font-family: sans-serif;
   font-size: 14px;
   transition: 0.8s;
@@ -272,82 +258,46 @@
   overflow-y: hidden;
 }
 .container4 img {
-  height: 40vh;
-  width: 65%;
+  height: 95%;
+  width: auto;
   padding: 20px;
-  transform: translateY(40px);
+  transform: translateY(10px);
   object-fit: cover;
 }
-@media (min-width: 1px) and (max-width: 450px) {
+@media screen and (min-width: 1px) and (max-width: 450px) {
+  .container3 button {
+    overflow: hidden;
+  }
   .button3 {
     width: 90%;
-    display: block;
-    height: 100vh;
-    margin-right: 20px;
+    height: auto;
   }
-  .container3 {
-    text-align: center;
-  }
-  .container3 h1 {
-    font-size: 17px;
-  }
-  .container3 h3 {
-    font-size: 15px;
-  }
-  .container3 button {
-    width: 100%;
-  }
-  .container4 {
-    width: 100%;
-    margin-left: 20px;
+  .container4 img {
+    object-fit: contain;
   }
 }
-@media (min-width: 451px) and (max-width: 768px) {
+@media screen and (min-width: 451px) and (max-width: 768px) {
+  .container3 button {
+    overflow: hidden;
+  }
+  .button3 {
+    width: 94%;
+    height: auto;
+  }
+  .container4 img {
+    object-fit: contain;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .container3 button {
+    overflow: hidden;
+  }
   .button3 {
     width: 95%;
-    display: block;
-    height: 100vh;
+    height: auto;
   }
-  .container3 {
-    text-align: center;
-  }
-  .container3 h1 {
-    font-size: 17px;
-  }
-  .container3 h3 {
-    font-size: 15px;
-  }
-  .container3 button {
-    width: 100%;
-  }
-  .container4 {
-    width: 100%;
-    margin-left: 20px;
-  }
-}
-@media (min-width: 769px) and (max-width: 1024px) {
-  .button3 {
-    width: 95%;
-    display: block;
-    height: 100vh;
-  }
-  .container3 {
-    width: 90%;
-    text-align: center;
-    font-size: 10px;
-  }
-  .container3 .container3 button {
-    width: 70%;
-  }
-  .container4 {
-    width: 90%;
-    margin-left: 20px;
-  }
-}
-
-@media (min-width: 1201px) and (max-width: 3000px) {
-  .button3 {
-    width: 97%;
+  .container4 img {
+    object-fit: contain;
   }
 }
 
@@ -371,8 +321,8 @@
   font-size: 30px;
 }
 .container5 {
-  width: 10.5%;
-  height: 40vh;
+  width: 11%;
+  height: 30vh;
   cursor: pointer;
   margin-right: 20px;
   align-items: center;
@@ -384,22 +334,29 @@
   color: black;
   font-family: sans-serif;
   font-size: 14px;
+  font-weight: bold;
 }
 .container5:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   transform: scale(1.04);
   opacity: 0.8;
+  background: rgb(187, 190, 189);
+  border-radius: 5px;
 }
 .container5 img {
-  width: 70px;
-  height: 120px;
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
   margin-bottom: 15px;
   margin-top: 15px;
   text-align: center;
 }
 @media (min-width: 1px) and (max-width: 450px) {
   .main3 {
-    height: 700vh;
+    height: 600vh;
+    overflow: hidden;
   }
   .button4 {
     width: 100%;
@@ -409,7 +366,7 @@
   }
   .container5 {
     width: 80%;
-    height: 40vh;
+    height: 100%;
     margin-left: 8px;
     margin-bottom: 40px;
   }
@@ -419,13 +376,14 @@
     margin-left: 30px;
     object-fit: cover;
   }
+
   .container5 p {
     text-align: center;
   }
 }
 @media (min-width: 451px) and (max-width: 768px) {
   .main3 {
-    height: 700vh;
+    height: 600vh;
     overflow: hidden;
   }
   .button4 {
@@ -435,42 +393,45 @@
   }
   .container5 {
     width: 90%;
-    height: 80vh;
+    height: 100%;
     margin-left: 10px;
     margin-bottom: 40px;
   }
   .container5 img {
     width: 90%;
-    height: 60vh;
+    height: 100%;
     margin-left: 30px;
     object-fit: cover;
   }
+
   .container5 p {
     text-align: center;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .main3 {
-    height: 700vh;
-    position: relative;
+    height: auto;
+    width: 100%;
   }
   .button4 {
     width: 100%;
     display: block;
-    height: auto;
   }
   .container5 {
     width: 90%;
-    height: 80vh;
+    height: 100%;
     margin-left: 20px;
     margin-bottom: 40px;
   }
   .container5 img {
-    width: 90%;
-    height: 60vh;
-    margin-left: 30px;
+    width: 100%;
+    height: 50%;
     object-fit: cover;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    text-align: center;
   }
+
   .container5 p {
     text-align: center;
   }
@@ -486,13 +447,14 @@
   display: flex;
   height: auto;
   margin-top: 20px;
+  margin-bottom: 20px;
   margin-left: 30px;
   overflow-y: hidden;
 }
 
 .container6 {
   width: 10.5%;
-  height: 40vh;
+  height: 30vh;
   cursor: pointer;
   margin-right: 20px;
   align-items: center;
@@ -504,15 +466,21 @@
   color: black;
   font-family: sans-serif;
   font-size: 14px;
+  font-weight: bold;
 }
 .container6:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   transform: scale(1.04);
   opacity: 0.8;
+  background: rgb(187, 190, 189);
+  border-radius: 5px;
 }
 .container6 img {
-  width: 70px;
-  height: 120px;
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
   margin-bottom: 15px;
   margin-top: 15px;
   text-align: center;
@@ -524,7 +492,7 @@
   }
   .container6 {
     width: 80%;
-    height: 40vh;
+    height: 100%;
     margin-left: 8px;
     margin-bottom: 40px;
   }
@@ -545,13 +513,13 @@
   }
   .container6 {
     width: 90%;
-    height: 80vh;
+    height: 100%;
     margin-left: 10px;
     margin-bottom: 40px;
   }
   .container6 img {
     width: 90%;
-    height: 60vh;
+    height: 100%;
     margin-left: 30px;
     object-fit: cover;
   }
@@ -566,15 +534,17 @@
   }
   .container6 {
     width: 90%;
-    height: 80vh;
+    height: 100%;
     margin-left: 20px;
     margin-bottom: 40px;
   }
   .container6 img {
-    width: 90%;
-    height: 60vh;
-    margin-left: 30px;
+    width: 100%;
+    height: 50%;
     object-fit: cover;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    text-align: center;
   }
   .container6 p {
     text-align: center;
@@ -654,18 +624,23 @@
 }
 .container8 {
   width: 13.5%;
-  padding: 10px 20px;
+  height: 60vh;
+  padding: 30px;
   cursor: pointer;
   margin-right: 25px;
   box-shadow: rgba(255, 255, 255, 0.25) 0px 50px 100px -20px,
     rgb(255, 255, 255) 0px 30px 60px -30px,
     rgba(18, 18, 18, 0.35) 0px -2px 6px 0px inset;
   transition: 1s;
+  overflow: hidden;
 }
 .container8 img {
   width: 100%;
-  height: 160px;
-  margin-bottom: 20px;
+  height: 50%;
+  object-fit: cover;
+  margin-bottom: 5px;
+  margin-top: 15px;
+  text-align: center;
 }
 .container8 p {
   font-family: sans-serif;
@@ -682,17 +657,34 @@
 .container8:hover {
   background: rgb(183, 223, 154);
 }
-@media (min-width: 1px) and (max-width: 450px) {
+@media (min-width: 1px) and (max-width: 300px) {
   .button7 {
     width: 100%;
     display: block;
   }
   .container8 {
-    width: 75%;
+    width: 70%;
+    height: 100%;
     margin-bottom: 30px;
   }
   .container8 img {
-    height: 80vh;
+    width: 100%;
+    height: 50%;
+  }
+}
+@media (min-width: 301px) and (max-width: 450px) {
+  .button7 {
+    width: 100%;
+    display: block;
+  }
+  .container8 {
+    width: 80%;
+    height: 100%;
+    margin-bottom: 30px;
+  }
+  .container8 img {
+    width: 100%;
+    height: 50%;
   }
 }
 @media screen and (min-width: 451px) and (max-width: 768px) {
@@ -702,10 +694,12 @@
   }
   .container8 {
     width: 85%;
+    height: 100%;
     margin-bottom: 30px;
   }
   .container8 img {
-    height: 80vh;
+    width: 100%;
+    height: 50%;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
@@ -715,10 +709,12 @@
   }
   .container8 {
     width: 90%;
+    height: 100%;
     margin-bottom: 30px;
   }
   .container8 img {
-    height: 80vh;
+    width: 100%;
+    height: 50%;
   }
 }
 @media (min-width: 1025px) and (max-width: 3000px) {
@@ -736,8 +732,10 @@
 }
 .container9 {
   width: 13.5%;
-  padding: 10px 20px;
+  padding: 30px;
+  height: 60vh;
   cursor: pointer;
+  overflow: hidden;
   margin-right: 25px;
   box-shadow: rgba(255, 255, 255, 0.25) 0px 50px 100px -20px,
     rgb(255, 255, 255) 0px 30px 60px -30px,
@@ -746,8 +744,11 @@
 }
 .container9 img {
   width: 100%;
-  height: 160px;
-  margin-bottom: 20px;
+  height: 50%;
+  object-fit: cover;
+  margin-bottom: 5px;
+  margin-top: 15px;
+  text-align: center;
 }
 .container9 p {
   font-family: sans-serif;
@@ -764,17 +765,34 @@
 .container9:hover {
   background: rgb(183, 223, 154);
 }
-@media (min-width: 1px) and (max-width: 450px) {
+@media (min-width: 1px) and (max-width: 300px) {
   .button8 {
     width: 100%;
     display: block;
   }
   .container9 {
-    width: 75%;
+    width: 70%;
+    height: 100%;
     margin-bottom: 30px;
   }
   .container9 img {
-    height: 80vh;
+    width: 100%;
+    height: 50%;
+  }
+}
+@media (min-width: 301px) and (max-width: 450px) {
+  .button8 {
+    width: 100%;
+    display: block;
+  }
+  .container9 {
+    width: 80%;
+    height: 100%;
+    margin-bottom: 30px;
+  }
+  .container9 img {
+    width: 100%;
+    height: 50%;
   }
 }
 @media screen and (min-width: 451px) and (max-width: 768px) {
@@ -784,10 +802,12 @@
   }
   .container9 {
     width: 85%;
+    height: 100%;
     margin-bottom: 30px;
   }
   .container9 img {
-    height: 80vh;
+    width: 100%;
+    height: 50%;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
@@ -797,10 +817,12 @@
   }
   .container9 {
     width: 90%;
+    height: 100%;
     margin-bottom: 30px;
   }
   .container9 img {
-    height: 80vh;
+    width: 100%;
+    height: 50%;
   }
 }
 @media (min-width: 1025px) and (max-width: 3000px) {
@@ -818,7 +840,9 @@
 }
 .container10 {
   width: 13.5%;
-  padding: 10px 20px;
+  padding: 30px;
+  height: 60vh;
+  overflow: hidden;
   cursor: pointer;
   margin-right: 25px;
   box-shadow: rgba(255, 255, 255, 0.25) 0px 50px 100px -20px,
@@ -828,8 +852,11 @@
 }
 .container10 img {
   width: 100%;
-  height: 160px;
-  margin-bottom: 20px;
+  height: 50%;
+  object-fit: cover;
+  margin-bottom: 5px;
+  margin-top: 15px;
+  text-align: center;
 }
 .container10 p {
   font-family: sans-serif;
@@ -846,17 +873,34 @@
 .container10:hover {
   background: rgb(183, 223, 154);
 }
-@media (min-width: 1px) and (max-width: 450px) {
+@media (min-width: 1px) and (max-width: 300px) {
   .button9 {
     width: 100%;
     display: block;
   }
   .container10 {
-    width: 75%;
+    width: 70%;
+    height: 100%;
     margin-bottom: 30px;
   }
   .container10 img {
-    height: 80vh;
+    width: 100%;
+    height: 50%;
+  }
+}
+@media (min-width: 301px) and (max-width: 450px) {
+  .button9 {
+    width: 100%;
+    display: block;
+  }
+  .container10 {
+    width: 80%;
+    height: 100%;
+    margin-bottom: 30px;
+  }
+  .container10 img {
+    width: 100%;
+    height: 50%;
   }
 }
 @media screen and (min-width: 451px) and (max-width: 768px) {
@@ -866,10 +910,12 @@
   }
   .container10 {
     width: 85%;
+    height: 100%;
     margin-bottom: 30px;
   }
   .container10 img {
-    height: 80vh;
+    width: 100%;
+    height: 50%;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
@@ -879,10 +925,12 @@
   }
   .container10 {
     width: 90%;
+    height: 100%;
     margin-bottom: 30px;
   }
   .container10 img {
-    height: 80vh;
+    width: 100%;
+    height: 50%;
   }
 }
 @media (min-width: 1025px) and (max-width: 3000px) {
@@ -897,13 +945,15 @@
   display: flex;
   margin-left: 50px;
   margin-top: 60px;
+  margin-bottom: 13px;
 }
 .container11 {
   width: 13.5%;
-  padding: 10px 20px;
+  padding: 30px;
+  height: 60vh;
+  overflow: hidden;
   cursor: pointer;
   margin-right: 25px;
-  margin-bottom: 30px;
   box-shadow: rgba(255, 255, 255, 0.25) 0px 50px 100px -20px,
     rgb(255, 255, 255) 0px 30px 60px -30px,
     rgba(18, 18, 18, 0.35) 0px -2px 6px 0px inset;
@@ -911,8 +961,11 @@
 }
 .container11 img {
   width: 100%;
-  height: 160px;
-  margin-bottom: 20px;
+  height: 50%;
+  object-fit: cover;
+  margin-bottom: 5px;
+  margin-top: 15px;
+  text-align: center;
 }
 .container11 p {
   font-family: sans-serif;
@@ -922,6 +975,7 @@
 .fontAwesome2 {
   color: rgb(255, 104, 44);
   transition: 0.8s;
+  font-size: 12px;
 }
 .fontAwesome2:hover {
   color: rgb(37, 107, 96);
@@ -929,17 +983,34 @@
 .container11:hover {
   background: rgb(183, 223, 154);
 }
-@media (min-width: 1px) and (max-width: 450px) {
+@media (min-width: 1px) and (max-width: 300px) {
   .button10 {
     width: 100%;
     display: block;
   }
   .container11 {
-    width: 75%;
+    width: 70%;
+    height: 100%;
     margin-bottom: 30px;
   }
   .container11 img {
-    height: 80vh;
+    width: 100%;
+    height: 50%;
+  }
+}
+@media (min-width: 301px) and (max-width: 450px) {
+  .button10 {
+    width: 100%;
+    display: block;
+  }
+  .container11 {
+    width: 80%;
+    height: 100%;
+    margin-bottom: 30px;
+  }
+  .container11 img {
+    width: 100%;
+    height: 50%;
   }
 }
 @media screen and (min-width: 451px) and (max-width: 768px) {
@@ -949,10 +1020,12 @@
   }
   .container11 {
     width: 85%;
+    height: 100%;
     margin-bottom: 30px;
   }
   .container11 img {
-    height: 80vh;
+    width: 100%;
+    height: 50%;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
@@ -962,10 +1035,12 @@
   }
   .container11 {
     width: 90%;
+    height: 100%;
     margin-bottom: 30px;
   }
   .container11 img {
-    height: 80vh;
+    width: 100%;
+    height: 50%;
   }
 }
 @media (min-width: 1025px) and (max-width: 3000px) {
@@ -978,7 +1053,7 @@
   display: block;
   height: auto;
   padding: 60px 60px;
-  background: rgb(0, 107, 91);
+  background: rgb(1, 23, 0);
   color: rgb(211, 211, 211);
 }
 .main5 {
@@ -1034,13 +1109,12 @@
     display: block;
     height: auto;
   }
-  .main5 {
-    width: 80%;
-    display: block;
-  }
+
   .main5 input {
-    width: 100%;
-    margin-bottom: 20px;
+    font-size: 9px;
+  }
+  .main5 button {
+    font-size: 9px;
   }
   .button11 {
     width: 100%;

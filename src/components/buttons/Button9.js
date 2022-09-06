@@ -23,7 +23,7 @@ function Button9() {
         
         <div className={Button.container10}>
             <img src={ bodyshpre}/>
-            <p>awesome body spree from fogg company</p>
+            <p>body spree </p>
             <p>$10</p>
             <i className={Button.fontAwesome2}>  <FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/></i>
             
@@ -47,7 +47,7 @@ function Button9() {
         
         <div className={Button.container10}>
             <img src={ bag }/>
-            <p>small and cute bag for girl</p>
+            <p>cute bag</p>
             <p>$10</p>
             <i className={Button.fontAwesome2}>  <FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/></i>
             
@@ -55,7 +55,7 @@ function Button9() {
         
         <div className={Button.container10}>
             <img src={watch}/>
-            <p>quality watch for boy</p>
+            <p>quality watch </p>
             <p>$10</p>
             <i className={Button.fontAwesome2}>  <FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/></i>
            

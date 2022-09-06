@@ -18,13 +18,13 @@ function Button4() {
            
             <div className={Button.container5}>
                 <img src={watch}/>
-                <p>Watches and Accesories</p>
+                <p>Watche</p>
 
             </div>
 
             <div className={Button.container5}>
                 <img src={duster}/>
-                <p>Duster and dust cloths</p>
+                <p>Duster</p>
             </div>
 
             <div className={Button.container5}>
@@ -34,7 +34,7 @@ function Button4() {
 
             <div className={Button.container5}>
                 <img src={femaledress}/>
-                <p>Beauty and Wellness</p>
+                <p>Beauty </p>
             </div>
 
             <div className={Button.container5}>

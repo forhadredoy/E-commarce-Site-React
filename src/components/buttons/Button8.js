@@ -16,7 +16,7 @@ function Button8() {
 
 <div className={Button.container9}>
     <img src={dress}/>
-    <p>quality dress for female</p>
+    <p>quality dress </p>
     <p>$20</p>
     <i className={Button.fontAwesome2}>  <FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/></i>
     
@@ -24,7 +24,7 @@ function Button8() {
 
 <div className={Button.container9}>
     <img src={tshirt}/>
-    <p>quality tshirt for boy</p>
+    <p>quality tshirt </p>
     <p>$10</p>
     <i className={Button.fontAwesome2}>  <FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/></i>
     
@@ -32,7 +32,7 @@ function Button8() {
 
 <div className={Button.container9}>
     <img src={microwave}/>
-    <p>electronics microwave parts</p>
+    <p>electronics parts</p>
     <p>$40</p>
     <i className={Button.fontAwesome2}>  <FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/></i>
     
@@ -40,7 +40,7 @@ function Button8() {
 
 <div className={Button.container9}>
     <img src={mobilecharger}/>
-    <p>samsung mobile charger</p>
+    <p>mobile charger</p>
     <p>$10</p>
     <i className={Button.fontAwesome2}>  <FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/></i>
     

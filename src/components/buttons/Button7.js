@@ -25,7 +25,7 @@ function Button7() {
 
             <div className={Button.container8} onClick={handleClick}>
                 <img src={shoes}/>
-                <p>this is nice shoes for male</p>
+                <p>this is nice shoes </p>
                 <p>$210</p>
                 <i className={Button.fontAwesome2}>  <FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/></i>
                 
@@ -33,7 +33,7 @@ function Button7() {
 
             <div className={Button.container8}>
                 <img src={pendrive}/>
-                <p>qualityful pendrive of hp</p>
+                <p>pendrive of hp</p>
                 <p>$20</p>
                 <i className={Button.fontAwesome2}>  <FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/></i>
                 

@@ -18,7 +18,7 @@ function Button10() {
 
         <div className={Button.container11}>
             <img src={mobile}/>
-            <p>this is quality iphone 11</p>
+            <p>quality iphone 11</p>
             <p>$700</p>
             <i className={Button.fontAwesome2}>  <FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/></i>
             
@@ -34,7 +34,7 @@ function Button10() {
         
         <div className={Button.container11}>
             <img src={ sunglass }/>
-            <p>black sunglass for boy</p>
+            <p>black sunglass </p>
             <p>$10</p>
             <i className={Button.fontAwesome2}>  <FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/></i>
             
@@ -50,7 +50,7 @@ function Button10() {
         
         <div className={Button.container11}>
             <img src={ psticker }/>
-            <p>quality programming sticker</p>
+            <p> programming sticker</p>
             <p>$7</p>
             <i className={Button.fontAwesome2}>  <FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/></i>
             
@@ -58,7 +58,7 @@ function Button10() {
         
         <div className={Button.container11}>
             <img src={leptopbettery}/>
-            <p>100% leptop bettery</p>
+            <p> leptop bettery</p>
             <p>$50</p>
             <i className={Button.fontAwesome2}>  <FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/></i>
            
