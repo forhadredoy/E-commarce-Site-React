@@ -4,7 +4,6 @@ import femaledress from '../img/femaledress.jpeg';
 import garbez from '../img/garbez.jpeg';
 import labels from '../img/labels.jpeg';
 import mobile from '../img/mobile.jpg';
-import sanitizers from '../img/sanitizer.jpg';
 import tablets from '../img/tablets.jpeg';
 import watch from '../img/watch.jpg';
 import Button from './Button.module.css';
@@ -16,45 +15,42 @@ function Button4() {
             <div className={Button.button4}>
 
            
-            <div className={Button.container5}>
+            <div className={Button.container5} id={Button.watch}>
                 <img src={watch}/>
-                <p>Watche</p>
+                <p>Watch</p>
 
             </div>
 
-            <div className={Button.container5}>
+            <div className={Button.container5} id={Button.duster}>
                 <img src={duster}/>
                 <p>Duster</p>
             </div>
 
-            <div className={Button.container5}>
+            <div className={Button.container5} id={Button.mobile}>
                 <img src={mobile}/>
                 <p>Mobiles</p>
             </div>
 
-            <div className={Button.container5}>
+            <div className={Button.container5} id={Button.beauty}>
                 <img src={femaledress}/>
                 <p>Beauty </p>
             </div>
 
-            <div className={Button.container5}>
+            <div className={Button.container5} id={Button.garbez}>
                 <img src={garbez}/>
                 <p>Garbage</p>
             </div>
 
-            <div className={Button.container5}>
+            <div className={Button.container5} id={Button.tablets}>
                 <img src={tablets}/>
                 <p>Tablets</p>
             </div>
 
-            <div className={Button.container5}>
+            <div className={Button.container5} id={Button.labels}>
                 <img src={labels}/>
                 <p>Labels</p>
             </div>
-            <div className={Button.container5}>
-                <img src={sanitizers }/>
-                <p>sanitizers</p>
-            </div>
+          
 
             </div>
             

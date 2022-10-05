@@ -7,7 +7,7 @@ function Cart1() {
 
     const handleSubmit=(event)=>{
         event.preventDefault();
-            console.log(code)
+            alert(code)
     }
 
     return (
@@ -15,8 +15,8 @@ function Cart1() {
             <div className={Cart.container1}>
                 <form onSubmit={handleSubmit}>
                     <label>Submit Your Business Cart</label>
-                    <input value = {code} type='text'  onChange={(e)=>setCode(e.target.value)} />
-                    <input type="submit" className={Cart.btn}/>
+                    <input value = {code} type='number'  onChange={(e)=>setCode(e.target.value)} />
+                    <input type="submit"  disabled={!code} className={Cart.btn}/>
 
                 </form>
                 

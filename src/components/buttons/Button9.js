@@ -1,71 +1,100 @@
 import { faStar } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
-import bag from '../img/bag2.jpg';
-import bala from '../img/bala1.jpg';
-import bodyshpre from '../img/bodyspre1.jpg';
-import mobile from '../img/mobile.jpg';
-import painjebi from '../img/painjebi1.jpg';
-import watch from '../img/watch.jpg';
+import one from '../img/41.png';
+import two from '../img/42.png';
+import three from '../img/43.png';
+import four from '../img/44.png';
+import five from '../img/45.png';
+
 import Button from './Button.module.css';
 
 function Button9() {
     return (
-        <div className={Button.button9}>
+        <div className={Button.container10}>
 
-        <div className={Button.container10}>
-            <img src={mobile}/>
-            <p>nice andoid mobile</p>
-            <p>$250</p>
-            <i className={Button.fontAwesome2}>  <FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/></i>
+        <div className={Button.item2} id={Button.items10}>
+
+            <img src={one}/>
+            <h3>Shirt</h3>
+            <p className={Button.paragraph1}>to the claims of duty or the obligations </p>
+            <p className={Button.paragraph2} id={Button.price10}>$74</p>
+            <FontAwesomeIcon  icon={faStar} className={Button.icon2}/> <FontAwesomeIcon  icon={faStar}className={Button.icon2} /> <FontAwesomeIcon  icon={faStar} className={Button.icon2}/> <FontAwesomeIcon  icon={faStar} className={Button.icon3}/><FontAwesomeIcon  icon={faStar}  className={Button.icon3}/>
+            <div className={Button.element2} id={Button.eleven}>
+                <p className={Button.paragraph3} >Add to Cart</p>
+                </div>
+
+            </div>
+
+
+             <div className={Button.item2} id={Button.items11}>
+
+            <img src={two}/>
+            <h3>Mouse</h3>
+            <p className={Button.paragraph1}>to the claims of duty or the obligations </p>
+            <p className={Button.paragraph2} id={Button.price11}>$74</p>
+            <FontAwesomeIcon  icon={faStar} className={Button.icon2}/> <FontAwesomeIcon  icon={faStar}className={Button.icon2} /> <FontAwesomeIcon  icon={faStar} className={Button.icon2}/> <FontAwesomeIcon  icon={faStar} className={Button.icon3}/><FontAwesomeIcon  icon={faStar}  className={Button.icon3}/>
+            <div className={Button.element2} id={Button.twalve}>
+                <p className={Button.paragraph3} >Add to Cart</p>
+                </div>
+
+            </div>
+
+
+            
+             <div className={Button.item2} id={Button.items12}>
+
+            <img src={three}/>
+            <h3>Torch light</h3>
+            <p className={Button.paragraph1}>to the claims of duty or the obligations </p>
+            <p className={Button.paragraph2} id={Button.price12}>$74</p>
+            <FontAwesomeIcon  icon={faStar} className={Button.icon2}/> <FontAwesomeIcon  icon={faStar}className={Button.icon2} /> <FontAwesomeIcon  icon={faStar} className={Button.icon2}/> <FontAwesomeIcon  icon={faStar} className={Button.icon3}/><FontAwesomeIcon  icon={faStar}  className={Button.icon3}/>
+            <div className={Button.element2} id={Button.thirtyn}>
+                <p className={Button.paragraph3} >Add to Cart</p>
+                </div>
+
+            </div>
+
+
+
+            
+             <div className={Button.item2} id={Button.items13}>
+
+            <img src={four}/>
+            <h3>Pc bag</h3>
+            <p className={Button.paragraph1}>to the claims of duty or the obligations </p>
+            <p className={Button.paragraph2} id={Button.price13} >$74</p>
+            <FontAwesomeIcon  icon={faStar} className={Button.icon2}/> <FontAwesomeIcon  icon={faStar}className={Button.icon2} /> <FontAwesomeIcon  icon={faStar} className={Button.icon2}/> <FontAwesomeIcon  icon={faStar} className={Button.icon3}/><FontAwesomeIcon  icon={faStar}  className={Button.icon3}/>
+            <div className={Button.element2} id={Button.fourtin}>
+                <p className={Button.paragraph3} >Add to Cart</p>
+                </div>
+
+            </div>
+
+
+
+
+            
+             <div className={Button.item2} id={Button.items14}>
+
+            <img src={five}/>
+            <h3>Knife</h3>
+            <p className={Button.paragraph1} >to the claims of duty or the obligations</p>
+            <p className={Button.paragraph2} id={Button.price14}>$74</p>
+            <FontAwesomeIcon  icon={faStar} className={Button.icon2}/> <FontAwesomeIcon  icon={faStar}className={Button.icon2} /> <FontAwesomeIcon  icon={faStar} className={Button.icon2}/> <FontAwesomeIcon  icon={faStar} className={Button.icon3}/><FontAwesomeIcon  icon={faStar}  className={Button.icon3}/>
+            <div className={Button.element2} id={Button.fifteen}>
+                <p className={Button.paragraph3} >Add to Cart</p>
+
+            </div>
+
+        </div>
+
+
+
+     
             
         </div>
-        
-        <div className={Button.container10}>
-            <img src={ bodyshpre}/>
-            <p>body spree </p>
-            <p>$10</p>
-            <i className={Button.fontAwesome2}>  <FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/></i>
-            
-        </div>
-        
-        <div className={Button.container10}>
-            <img src={ painjebi }/>
-            <p>Awesome painjebi</p>
-            <p>$30</p>
-            <i className={Button.fontAwesome2}>  <FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/></i>
-            
-        </div>
-        
-        <div className={Button.container10}>
-            <img src={bala}/>
-            <p>flexible bala</p>
-            <p>$20</p>
-            <i className={Button.fontAwesome2}>  <FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/></i>
-            
-        </div>
-        
-        <div className={Button.container10}>
-            <img src={ bag }/>
-            <p>cute bag</p>
-            <p>$10</p>
-            <i className={Button.fontAwesome2}>  <FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/></i>
-            
-        </div>
-        
-        <div className={Button.container10}>
-            <img src={watch}/>
-            <p>quality watch </p>
-            <p>$10</p>
-            <i className={Button.fontAwesome2}>  <FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/></i>
-           
-            
-        </div>
-        
-        </div>
-                    
-            
-            );
+    )
       
     
 }

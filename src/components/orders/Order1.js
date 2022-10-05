@@ -1,3 +1,4 @@
+import { Button } from 'bootstrap';
 import React, { useState } from 'react';
 import Order from './order.module.css';
 
@@ -23,7 +24,7 @@ function Order1() {
        
               <div className={Order.intro}>
             <div className={Order.container}>
-                <form onSubmit={handleSubmit}> 
+                <form onSubmit={handleSubmit} className={Button.form}> 
                     <label>Full Name  </label>
                 <input type="text" value={text} placeholder="search" onChange={(e)=>setText(e.target.value)}/>
 

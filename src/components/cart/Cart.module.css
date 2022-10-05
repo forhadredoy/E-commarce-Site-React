@@ -12,14 +12,18 @@
 .container1 {
   width: 100%;
   height: auto;
+}
+.container1 form {
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
   margin-top: 100px;
 }
 .container1 input {
-  height: 6.5vh;
-  width: 100%;
-  margin-top: 30px;
+  padding: 15px 100px;
+  margin: 30px;
+  border-radius: 7px;
 }
 .container1 label {
   display: block;
@@ -44,17 +48,8 @@
 .intro1:hover {
   background: rgb(0, 24, 0);
 }
-@media (min-width: 1px) and (max-width: 400px) {
-  .container1 {
-    width: 90%;
-  }
+@media (max-width: 550px) {
   .container1 input {
-    height: 6.5vh;
-    width: 100%;
-    margin-left: 20px;
-  }
-  .container1 label {
-    font-size: 20px;
-    text-align: center;
+    padding: 15px 30px;
   }
 }

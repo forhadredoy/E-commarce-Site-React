@@ -1,6 +1,5 @@
 import React from 'react';
 import camera from '../img/camera.jpg';
-import electric from '../img/electric.jpg';
 import matreess from '../img/mattress.jpg';
 import microwave from '../img/microwave.jpg';
 import pants from '../img/pants.jpg';
@@ -14,45 +13,42 @@ function Button5() {
              <div className={Button.button5}>
 
            
-            <div className={Button.container6}>
+            <div className={Button.container6} id={Button.camera}>
                 <img src={camera}/>
                 <p>Cameras</p>
 
             </div>
 
-            <div className={Button.container6}>
+            <div className={Button.container6} id={Button.shirt}>
                 <img src={shirt}/>
                 <p>DShirts</p>
             </div>
 
-            <div className={Button.container6}>
+            <div className={Button.container6} id={Button.tshirt}>
                 <img src={tshirt}/>
                 <p>T-shirt</p>
             </div>
 
-            <div className={Button.container6}>
+            <div className={Button.container6} id={Button.microwave}>
                 <img src={microwave}/>
                 <p>Microwave</p>
             </div>
 
-            <div className={Button.container6}>
+            <div className={Button.container6} id={Button.pants}>
                 <img src={pants}/>
                 <p>Pants</p>
             </div>
 
-            <div className={Button.container6}>
+            <div className={Button.container6} id={Button.pasta}>
                 <img src={pasta}/>
                 <p>Pastas</p>
             </div>
 
-            <div className={Button.container6}>
+            <div className={Button.container6} id={Button.matres}>
                 <img src={matreess}/>
                 <p>Matreess </p>
             </div>
-            <div className={Button.container6}>
-                <img src={electric}/>
-                <p>Electrics</p>
-            </div>
+            
 
             </div>
             
